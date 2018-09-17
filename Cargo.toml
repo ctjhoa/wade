@@ -1,0 +1,9 @@
+[package]
+name = "wade"
+version = "0.1.0"
+authors = ["Camille TJHOA <camille.tjhoa@outlook.com>"]
+
+[dependencies]
+stdweb = "0.4.9"
+zip = { git = "https://github.com/ctjhoa/zip-rs", branch = "wasm32", default-features = false, features = ['deflate'] }
+quick-xml = "0.12.1"
